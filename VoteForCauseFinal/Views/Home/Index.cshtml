@@ -1,0 +1,86 @@
+﻿@model List<VoteForCauseFinal.Models.Domain.CausePost>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-5 py-5">
+        <div class="col-12 col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+                Welcome to Conscientious Collaborative
+            </h1>
+            <p class="lead">
+                Conscientious Collaborative is a website that promotes ethical business practices and social justice.
+                It allows users to create and sign petitions for various causes, including unfair employment practices, tax avoidance, racism, and environmental issues
+                
+            </p>
+        </div>
+
+
+
+        <div class="col-12 col-lg-6">
+            <img src="https://media.istockphoto.com/id/1226993080/photo/online-voting.jpg?s=612x612&w=0&k=20&c=5yAo7fLO8BroSYTZhl4yByoa9MBYvtND9iOUkUn-u-0="
+                alt="Vote For Causes" class="d-block mx-lg-auto img-fluid" width="400" />
+        </div>
+    </div>
+</div>
+
+
+<div class="container mb-3">
+    <form asp-area="" asp-controller="Cause" asp-action="Search" method="get" class="d-flex">
+        <input type="search" class="form-control" id="search" name="query" placeholder="Search for causes...">
+        <button type="submit" class="btn btn-outline-dark ms-2">Search</button>
+    </form>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            int index = 0;
+            foreach (var causePost in Model)
+            {
+                if (index % 2 == 0)
+                {
+                    <div class="w-100 d-none d-md-block"></div>
+                }
+                <div class="col-md-6">
+                    <div class="mb-5 bg-light box-shadow p-3">
+                        <img src="@causePost.FeaturedImageUrl" alt="@causePost.Heading"
+                             class="mb-2 d-block img-fluid" />
+                        <h2 class="mb-4">@causePost.Heading</h2>
+                        <p class="mb-4">
+                            Author: @causePost.Author
+                            <br />
+                            Published Date: @causePost.PublishedDate.ToShortDateString()
+
+                        </p>
+
+                        <p class="mb-4">
+                            @foreach (var tag in causePost.Tags)
+                            {
+                                <span class="badge bg-secondary me-1">@tag.Name</span>
+                            }
+                        </p>
+
+                        <p class="mb-4">@causePost.ShortDescription</p>
+
+                        <a class="btn btn-dark"
+                   asp-area=""
+                   asp-controller="Cause"
+                   asp-action="Index"
+                   asp-route-urlHandle="@causePost.UrlHandle">Read More</a>
+
+                    </div>
+                </div>
+                index++;
+            }
+        }
+    </div>
+</div>
+
+

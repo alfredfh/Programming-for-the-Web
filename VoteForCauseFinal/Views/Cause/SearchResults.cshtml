@@ -1,0 +1,48 @@
+﻿@model List<VoteForCauseFinal.Models.Domain.CausePost>
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<div class="container py-5">
+    <h2 class="mb-4">Search Results</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-6">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var causePost in Model)
+                {
+                    <div class="mb-5 bg-light box-shadow p-3">
+                        <img src="@causePost.FeaturedImageUrl" alt="@causePost.Heading"
+                             class="mb-2 d-block img-fluid" />
+                        <h2 class="mb-4">@causePost.Heading</h2>
+                        <p class="mb-4">
+                            Author: @causePost.Author
+                            <br />
+                            Published Date: @causePost.PublishedDate.ToShortDateString()
+                        </p>
+
+                        <p class="mb-4">
+                            @foreach (var tag in causePost.Tags)
+                            {
+                                <span class="badge bg-secondary me-1">@tag.Name</span>
+                            }
+                        </p>
+
+                        <p class="mb-4">@causePost.ShortDescription</p>
+
+                        <a class="btn btn-dark"
+                   asp-area=""
+                   asp-controller="Cause"
+                   asp-action="Index"
+                   asp-route-urlHandle="@causePost.UrlHandle">Read More</a>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No results found for "@ViewData["query"]".</p>
+            }
+        </div>
+    </div>
+</div>

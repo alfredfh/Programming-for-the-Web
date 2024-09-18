@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VoteForCauseFinal
+build_property.RootNamespace = VoteForCauseFinal
+build_property.ProjectDir = C:\Users\alfre\OneDrive\Desktop\MSc Computing\Trimester 2\Programming for the web\Assessment\PROJECT\VoteForCauseFinal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alfre\OneDrive\Desktop\MSc Computing\Trimester 2\Programming for the web\Assessment\PROJECT\VoteForCauseFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AccountControllercs/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudENvbnRyb2xsZXJjc1xBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AccountControllercs/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudENvbnRyb2xsZXJjc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AccountControllercs/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudENvbnRyb2xsZXJjc1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminCausePost/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXVzZVBvc3RcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminCausePost/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXVzZVBvc3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminCausePost/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXVzZVBvc3RcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminTags/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminTags/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminTags/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UYWdzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/AdminUsers/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Vc2Vyc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Cause/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F1c2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Cause/SearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F1c2VcU2VhcmNoUmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alfre/OneDrive/Desktop/MSc Computing/Trimester 2/Programming for the web/Assessment/PROJECT/VoteForCauseFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-61nutbj7o8

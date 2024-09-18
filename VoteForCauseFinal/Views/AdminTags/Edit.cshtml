@@ -1,0 +1,93 @@
+﻿@model VoteForCauseFinal.Models.ViewModels.EditTagRequest
+@{
+}
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>Edit Tag</h1>
+    </div>
+
+</div>
+
+<div class="container py-5">
+
+    @if(Model != null)
+    {
+        <form method="post" id="edit-tag-form">
+            <div class="mb-3">
+                <label class="form-label">Id</label>
+                <input type="text" class="form-control" id="id" asp-for="Id" readonly />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" asp-for="Name" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Display Name</label>
+                <input type="text" class="form-control" id="displayName" asp-for="DisplayName" />
+            </div>
+
+            <div class="mb-3">
+                <div class="d-flex">
+                    <button type="button" class="btn btn-dark" id="update-button" data-url="@Url.Action("Edit", "AdminTags")">Update</button>
+
+                    <button type="submit" class="btn btn-danger ms-2" asp-area="" asp-controller="AdminTags" asp-action="Delete">Delete</button>
+
+                </div>
+
+            </div>
+
+        </form>
+    }
+    else
+    {
+        <p>Tag not found!</p>
+    }
+
+   
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('update-button').addEventListener('click', function () {
+            var form = document.getElementById('edit-tag-form');
+            var url = this.getAttribute('data-url');
+            var formData = new FormData(form);
+
+            fetch(url, {
+                method: 'POST',
+                body: formData
+            })
+                .then(function (response) {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error('Error updating tag');
+                    }
+                })
+                .then(function (data) {
+                    showMessage(data.message, data.status);
+                })
+                .catch(function (error) {
+                    showMessage(error.message, 'error');
+                });
+        });
+
+        function showMessage(message, status) {
+            var alertClass = status === 'success' ? 'alert-success' : 'alert-danger';
+
+            var alertBox = document.createElement('div');
+            alertBox.className = 'alert ' + alertClass + ' fixed-top text-center';
+            alertBox.textContent = message;
+
+            document.body.appendChild(alertBox);
+
+            setTimeout(function () {
+                alertBox.remove();
+            }, 3000);
+        }
+    </script>
+}
+
