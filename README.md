@@ -16,5 +16,3 @@ To build a web application that allows users to add a signatures under unethical
 - ASP.NET MVC
 - C#
 - json
-
-## Class Diagram
